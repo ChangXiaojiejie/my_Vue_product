@@ -1,0 +1,158 @@
+html,body{
+  height: 100%;
+}
+.list{
+  width: 100%;
+  height: 100%;
+}
+.list-content{
+  /* display: flex; */
+  /* background: #ccc; */
+  position: absolute;
+  top: 4.5rem;
+  width: 100%;
+  bottom: 4.5rem;
+  overflow: hidden;
+}
+/* 左边的侧导航 */
+.list-aside{
+  width: 80px;
+  float: left;
+  background-color: #fff;
+  position: relative;
+  height: 100%;
+  /* top: 4.5rem; */
+  /* bottom: 4.5rem; */
+  /* overflow: hidden; */
+}
+.mui-scroll-wrapper{
+  height: 100%;
+}
+.list-aside ul{
+  /* height: 100%; */
+}
+.list-aside span{
+  display: block;
+  width: 80px;
+  height: 4.5rem;
+  text-align: center;
+  border-left: 3px solid transparent;
+  line-height: 4.5rem;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+.list-aside li.active span{
+  border-left: 3px solid #f62;
+}
+
+/* 右边主体区域 */
+.content-main{
+  /* background-color: #f90; */
+  position: relative;
+  height: 100%;
+  /* overflow: hidden; */
+  /* padding-left: 80px; */
+  overflow: hidden;
+}
+.content-main .top_nav{
+  height: 30px;
+  width: 100%;
+  margin-top: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.content-main .top_nav li{
+  width: 50%;
+  height: 30px;
+  float: left;
+  text-align: center;
+  color: #777;
+}
+
+/* 右边内容区域 */
+.list-nav-content{
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-bottom: 4.5rem;
+  position: relative;
+}
+.list-nav-content ul {
+  /* height: 100%; */
+}
+.list-nav-content li{
+  margin-top: 10px;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+.list-nav-content .left-img{
+  width: 100px;
+  height: 100px;
+  /* background-color: #ff0; */
+  padding: 20px;
+  box-sizing: border-box;
+  float: left;
+}
+.list-nav-content .left-img img{
+  width: 55px;
+  height: 55px;
+}
+
+
+.list-nav-content .left-con{
+  padding-left: 100px;
+  box-sizing: border-box;
+}
+.list-nav-content .left-con h4{
+  font-size: 18px;
+  line-height: 50px;
+}
+.list-nav-content .left-con p {
+  color: #777;
+  font-size: 16px;
+}
+.list-nav-content .left-con .new_pric{
+  font-size: 16px;
+  font-weight: 700;
+  color: #f00;
+}
+.list-nav-content .left-con .old_pric{
+  color: #777;
+  font-size: 16px;
+  margin-left: 5px;
+}
+.list-nav-content .con-add{
+  width: 75px;
+  height: 30px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  /* background-color: #fda; */
+}
+.list-nav-content .con-add p{
+  width: 33.33%;
+  height: 30px;
+  float: left;
+  /* background-color: #ff0; */
+  text-align: center;
+}
+.list-nav-content .list-pro-del,
+.list-nav-content .list-pro-add{
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ffbe89;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #ff4300;
+  line-height: 17px;
+  text-align: center;
+
+}
+.list-nav-content .pro_num{
+  display: block;
+  /* width: 50px; */
+  height: 20px;
+}
+
+
